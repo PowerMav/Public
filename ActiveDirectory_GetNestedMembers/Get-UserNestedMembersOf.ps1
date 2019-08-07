@@ -12,7 +12,7 @@ DN of the User for who you want to list all Groups (like gpresult /r on local co
 Used to perform recursive MemberOf (Only used Internally in the Function)
 
 .EXAMPLE
- Get-ADUserNestedGroups -DistinguishedName (Get-ADUser -Identity ballin).DistinguishedName | Select-Object Name
+ Get-ADUserNestedGroups -DistinguishedName (Get-ADUser -Identity ArneWeise).DistinguishedName | Select-Object Name
  
 .NOTES
 Thanks to http://blog.tofte-it.dk/powershell-get-all-nested-groups-for-a-user-in-active-directory/ that did all the work, I just made it faster and Adv Func
